@@ -11,10 +11,11 @@
     --font-family1: "Lucida Calligraphy" , Lucida, Times;
 }
 
-header {
+/* header {
 
-    /* height: 20px; */
-}
+    /* height: 20px; 
+} 
+*/
 
 nav{
     background-color: var(--color4);
