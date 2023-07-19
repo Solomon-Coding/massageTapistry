@@ -1,13 +1,19 @@
 
 :root {
-    --color1:rgb(26,47,37);
+    
+    /* --color1:rgb(26,47,37);
     --color2:rgb(86,125,117);
     --color3:rgb(0,91,69);
     --color4:rgb(229,218,204);
     --color5:rgba(229, 218, 204, 0.804);
     --color6:rgb(49,42,35);
     --color7:rgb(0,0,0);
-    --color8:rgb(255,255,255);
+    --color8:rgb(255,255,255); */
+    --color1:#CDAEF2;
+    --color2:#A0C596;
+    --color3:#9D9A9B;
+    --color4:#6F6F6F;
+    --color5:#1A1A1A;
     --font-family1: "Lucida Calligraphy" , Lucida, Times;
 }
 
