@@ -11,13 +11,25 @@
   <body>
     <div class="formcarry-container">
       <form action="../assets/php/form-process.php" method="POST" class="formcarry-form">
-        <label for="name">Your Name</label>
+        <label for="name">Your Name *</label>
         <input type="text" id="name" name="fullName" required />
 
-        <label for="email">Your Email Address</label>
+        <label for="email">Your Email Address *</label>
         <input type="email" id="email" name="email" required />
 
-        <label for="message">Your Message</label>
+        <label for="phone">Phone Number</label>
+        <input type="phone" id="phone" name="phone" required />
+
+        <label for="message">How did you find out about me?</label>
+        <select> 
+          <option disabled selected value> -- select an option -- </option>
+          <option value="">A Friend</option>
+          <option value="">Chiropractor</option>
+          <option value="">Web search</option>
+          <option value="">Other</option>
+        </select>
+
+        <label for="message">Your Message *</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
         <button type="submit">Send</button>
