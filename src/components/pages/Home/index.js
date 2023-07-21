@@ -1,16 +1,20 @@
 import React from 'react';
 import projects from './home';
-import {Box} from "./HomeElements";
-// import GitHub_icon from "../../../github_icon.svg";
+import {Div, Main, Img} from "./HomeElements";
+import Banner from "../../../deep-forest-relaxation-2.jpg";
 const Home = () => {
 		return (
-			<main>
-				<h1>My Projects</h1>
-				<br/>
-				<Box>
+			<Main>
+				{/* <h1>My Projects</h1> */}
+				{/* <br/> */}
+				<Div>
+					<Img src={Banner}></Img>
+				</Div>
+				
+				{/* <Box>
 welcome
-				</Box>
-			</main>
+				</Box> */}
+			</Main>
 		);
 		};
 

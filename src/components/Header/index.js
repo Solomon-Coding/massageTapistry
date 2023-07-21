@@ -8,7 +8,7 @@ return (
 	<>
 	<Header>
 	<h1>Tapestry Massage Therapy</h1>
-	<div style={{textAlign:"center"}}>
+	{/* <div style={{textAlign:"center"}}>
 		<h1 style={{color:"white"}}>
 			Geeks For Geeks
 		</h1>
@@ -48,7 +48,7 @@ return (
 				</path>
 			</svg>
 		</div>
-	</div>
+	</div> */}
 
 		<Navbar />
 	</Header>
