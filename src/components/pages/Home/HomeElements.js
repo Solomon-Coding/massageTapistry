@@ -14,6 +14,6 @@ display: contents;
 `;
 
 export const Img = styled.img`
-filter: brightness(.85);
+filter: brightness(.95);
 z-index: -1;
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 import projects from './home';
 import {Div, Main, Img} from "./HomeElements";
 import Banner from "../../../deep-forest-relaxation-2.jpg";
+
 const Home = () => {
 		return (
 			<Main>

@@ -3,11 +3,13 @@ import { Header}
 	from "./HeaderElements";
 import Navbar from "../Navbar";
 
+
 const HeaderComponent = () => {
 return (
 	<>
 	<Header>
 	<h1>Tapestry Massage Therapy</h1>
+	
 	{/* <div style={{textAlign:"center"}}>
 		<h1 style={{color:"white"}}>
 			Geeks For Geeks
