@@ -2,7 +2,7 @@ import React from "react";
 import { Header, Img, Nav, NavMenu}
 	from "./HeaderElements";
 import Navbar from "../Navbar";
-import logo from "../../word_mark_lockup-07.png";
+import logo from "../../images/word_mark_lockup-07.png";
 
 const HeaderComponent = () => {
 return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Div, Main, Img} from "./HomeElements";
-import Banner from "../../../deep-forest-relaxation-2.jpg";
+import Banner from "../../../images/deep-forest-relaxation-2.jpg";
 
 const Home = () => {
 		return (
