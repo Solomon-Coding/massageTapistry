@@ -3,7 +3,7 @@ import { slide as Menu } from "react-burger-menu";
 
 const Props = () => {
   return (
-    <Menu {...Props}>
+    <Menu right {...Props}>
       <a className="menu-item" href="/">
         Home
       </a>
