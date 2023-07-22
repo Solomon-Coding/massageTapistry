@@ -3,7 +3,7 @@ import './App.css';
 import FooterComponent from './components/Footer';
 import HeaderComponent from './components/Header';
 // import Navbar from './components/Navbar';
-import Props from './components/Sidebar';
+import SideBar from './components/Sidebar';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import About from './components/pages/About/index';
@@ -15,16 +15,17 @@ import Faq from './components/pages/FAQ/index';
 function App() {
 return (
 	<Router>
-	<HeaderComponent/>
-	<Routes>
-		<Route exact path='/home' element={<Home/>} />
-		{/* <Route exact path='/about' element={<About/>} /> */}
-		<Route path='/about' element={<About/>} />
-		<Route path='/contact' element={<ContactMe/>} />
-		<Route path='/resume' element={<Faq/>} />
-	</Routes>
-	<Props/>
-	<FooterComponent/>
+		<HeaderComponent/>
+		<SideBar/>
+		<Routes>
+			<Route exact path='/home' element={<Home/>} />
+			{/* <Route exact path='/about' element={<About/>} /> */}
+			<Route path='/about' element={<About/>} />
+			<Route path='/contact' element={<ContactMe/>} />
+			<Route path='/resume' element={<Faq/>} />
+		</Routes>
+		
+		<FooterComponent/>
 
 	</Router>
 );
