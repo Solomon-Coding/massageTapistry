@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Banner from "../../../deep-forest-relaxation-2.jpg";
 
 export const Main = styled.main`
 padding: 0px;

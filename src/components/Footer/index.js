@@ -2,7 +2,7 @@ import React from "react";
 // import GitHub from "../../github_icon.svg"
 // import LinkedIn from "../../linkedin_icon.svg"
 // import StackOverflow from "../../stackoverflow_icon.svg"
-import { Footer,Img}
+import { Footer}
 	from "./FooterElements";
 
 const FooterComponent = () => {

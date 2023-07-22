@@ -1,4 +1,3 @@
-import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
@@ -8,30 +7,9 @@ padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 `;
 
-export const NavLink = styled(Link)`
-color: #D8B08C;
+export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-text-decoration: none;
-padding: 0 1rem;
-height: 100%;
-cursor: pointer;
-&.active {
-	color: #FFCB9B;
-	font-weight:bold;
-}
-`;
-
-export const Div = styled.div`
-// display: flex;
-// align-items: center;
-// margin-right: -24px;
-// /* Second Nav */
-// /* margin-right: 24px; */
-// /* Third Nav */
-// /* width: 100vw;
-// white-space: nowrap; */
-@media screen and (min-width: 990px) {
-	display: none;
-}
+margin-right: -24px;
+flex-direction: column;
 `;

@@ -4,23 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./App.css";
-import SideBar from "../src/components/Sidebar/index";
-import {Div} from "./components/Sidebar/SidebarElements"
-
-function Test() {
-  return (
-    <Div id="App">
-      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
-
-      <div id="page-wrap">
-        <h1>Click to show menu</h1>
-      </div>
-    </Div>
-  );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Test />, rootElement);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

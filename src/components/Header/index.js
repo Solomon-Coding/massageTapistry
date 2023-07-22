@@ -1,5 +1,5 @@
 import React from "react";
-import { Header}
+import { Header, Nav, NavMenu}
 	from "./HeaderElements";
 import Navbar from "../Navbar";
 
@@ -52,7 +52,11 @@ return (
 		</div>
 	</div> */}
 
-		<Navbar />
+		<Nav>
+        	<NavMenu>
+         		<Navbar/>
+        	</NavMenu>
+      	</Nav>
 	</Header>
 	</>
 );

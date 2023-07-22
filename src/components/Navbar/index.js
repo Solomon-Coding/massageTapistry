@@ -1,12 +1,10 @@
 import React from "react";
-import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import { NavLink} from "./NavbarElements";
 
 
 const Navbar = () => {
 return (
 	<>
-	<Nav>
-		<NavMenu>
 		<NavLink to="/home" activeStyle>
 			Home
 		</NavLink>
@@ -19,8 +17,6 @@ return (
 		<NavLink to="/faq" activeStyle>
 			FAQ
 		</NavLink>
-		</NavMenu>
-	</Nav>
 	</>
 	);
 };
