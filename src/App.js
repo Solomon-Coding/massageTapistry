@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import FooterComponent from './components/Footer';
 import HeaderComponent from './components/Header';
+// import Navbar from './components/Navbar';
+import Props from './components/Sidebar';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import About from './components/pages/About/index';
 import Home from './components/pages/Home/index';
 import ContactMe from './components/pages/Contact/index';
 import Faq from './components/pages/FAQ/index';
+
 
 function App() {
 return (
@@ -20,6 +23,7 @@ return (
 		<Route path='/contact' element={<ContactMe/>} />
 		<Route path='/resume' element={<Faq/>} />
 	</Routes>
+	<Props/>
 	<FooterComponent/>
 
 	</Router>
