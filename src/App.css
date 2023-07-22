@@ -214,8 +214,15 @@ body {
   height: 30px;
   right: 36px;
   top: 36px;
+  display: none;
     /* right: 0; */
     /* float: right; */
+}
+
+@media screen and (max-width: 990px) {
+	.bm-burger-button {
+    display: block;
+  }
 }
 
 /* Color/shape of burger icon bars */

@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import "./App.css";
 import SideBar from "../src/components/Sidebar/index";
+import {Div} from "./components/Sidebar/SidebarElements"
 
 function Test() {
   return (
-    <div id="App">
+    <Div id="App">
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
 
       <div id="page-wrap">
         <h1>Click to show menu</h1>
       </div>
-    </div>
+    </Div>
   );
 }
 
