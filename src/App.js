@@ -22,7 +22,7 @@ return (
 			{/* <Route exact path='/about' element={<About/>} /> */}
 			<Route path='/about' element={<About/>} />
 			<Route path='/contact' element={<ContactMe/>} />
-			<Route path='/resume' element={<Faq/>} />
+			<Route path='/faq' element={<Faq/>} />
 		</Routes>
 		
 		<FooterComponent/>

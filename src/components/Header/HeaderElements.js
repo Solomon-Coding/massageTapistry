@@ -2,6 +2,16 @@ import styled from "styled-components";
 
 export const Header = styled.header`
 display: flex;
+position: fixed;
+z-index: 100;
+background-color: var(--FooterBackground);
+width: 100vw;
+`;
+
+export const Img = styled.img`
+object-fit: scale-down;
+width: 300px;
+padding: 10px 0px 0px 10px;
 `;
 
 export const Nav = styled.nav`

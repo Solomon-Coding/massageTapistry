@@ -3,13 +3,26 @@ import { slide as Menu } from "react-burger-menu";
 import Navbar from "../Navbar";
 import { NavMenu, Nav } from "./SidebarElements";
 
+
+
 const Sidebar = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const handleCloseMenu = () => {
+    setIsMenuOpen(false);
+  };
+  const handleStateChange = (state) => {
+    setIsMenuOpen(state.isOpen);
+  };
+
   return (
     <>
-    <Menu right {...Sidebar}>
+    <Menu isOpen={isMenuOpen} onStateChange={handleStateChange} right {...Sidebar}>
       <Nav>
         <NavMenu>
-          <Navbar/>
+          <Navbar>
+            
+          </Navbar>
         </NavMenu>
       </Nav>
       

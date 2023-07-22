@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
+position: fixed;
+z-index: 100;
 background: #2C3532;
 height: 85px;
 display: flex;
 justify-content: space-evenly;
 padding: 0.2rem;
-position: fixed;
 bottom: 0px;
 width: 100vw;
+
 `;
 
 export const Img = styled.img`

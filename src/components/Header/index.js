@@ -1,16 +1,17 @@
 import React from "react";
-import { Header, Nav, NavMenu}
+import { Header, Img, Nav, NavMenu}
 	from "./HeaderElements";
 import Navbar from "../Navbar";
-
+import logo from "../../word_mark_lockup-07.png";
 
 const HeaderComponent = () => {
 return (
 	<>
 	<Header>
-	<h1>Tapestry Massage Therapy</h1>
+		<Img src={logo} alt="Tapestry Logo"></Img>
+	{/* <h1>Tapestry Massage Therapy</h1> */}
 	
-	{/* <div style={{textAlign:"center"}}>
+	{/* <div style={{textAlign:"center"}}> 
 		<h1 style={{color:"white"}}>
 			Geeks For Geeks
 		</h1>

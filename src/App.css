@@ -39,6 +39,12 @@
 
 /* Color Pallet */
 :root {
+    --HeaderBackground: rgb(109, 138, 123);
+    --NavbarText: rgb(216, 176, 140);
+    --NavbarTextSelected: rgb(255, 203, 155);
+    --FooterBackground: rgb(44, 53, 50); 
+/* rgb(44, 53, 50);  */
+
     --color1:rgb(26,47,37);
     --color2:rgb(86,125,117);
     --color3:rgb(0,91,69);
@@ -176,7 +182,7 @@ background-size: 8px 8px;
 } */
 
 /* ~~~ HAMBURGER/SIDEBAR STYLING ~~~ */
-html,
+html,  
 body {
   margin: 0;
 }
@@ -267,4 +273,9 @@ body {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.faqLists {
+  list-style-type:none;
+  padding: 0px;
 }

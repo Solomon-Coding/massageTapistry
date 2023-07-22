@@ -1,60 +1,80 @@
 import React from 'react';
-import {Box, Div} from "./faq";
-
-// // Function will execute on click of button
-// const onButtonClick = () => {
-// 	// using Java Script method to get PDF file
-// 	fetch('SDV_Resume.pdf').then(response => {
-// 		response.blob().then(blob => {
-// 			// Creating new object of PDF file
-// 			const fileURL = window.URL.createObjectURL(blob);
-// 			// Setting various property values
-// 			let alink = document.createElement('a');
-// 			alink.href = fileURL;
-// 			alink.download = 'SDV_Resume.pdf';
-// 			alink.click();
-// 		})
-// 	})
-// }
+import {Main, H2, Box} from "./faq";
 
 const Faq = () => {
-return (
-	<main>	
-		<Box>
-			<h2>Resume</h2>
-			<Div>
-				<p>Download my&nbsp;</p>
-				{/* <button onClick={onButtonClick} style={{cursor: 'pointer'}}> */}
-					Resume
-				{/* </button> */}
-			</Div>
+	return (
+		<Main>	
+			<H2>Frequently Asked Questions</H2>
+			<br/>
+			<br/>
+			<Box>
+				<div>
+					
+				</div>
+				
 
+				<ul className='faqLists'>
+					<li>
+						<h3>
+							How long is a typical session?
+						</h3> 
+						<p>
+							At Tapestry Massage Therapy, I am committed to doing a full body massage. On 
+							average massages are 60 min long. However, I will always plan on working on 
+							my clients until the full massage is completed. 
+						</p>
+					</li>
+					<br/>
+					<li>
+						<h3>
+							How much is a typical session?
+						</h3> 
+						<p>
+							My rate is $2/min or $120 for a hour long massage. However, exceptions can be
+							made in specific circumstances.
+						</p>
+					</li>
+					<br/>
+					<li>
+						<h3>
+							What does massage session entail?
+						</h3> 
+						<p>
+							Judy add content	
+						</p>
+					</li>
+					<br/>
+					<li>
+						<h3>
+							What does massage session entail?
+						</h3> 
+						<p>
+							Judy add content	
+						</p>
+					</li>
+					<br/>
+					<li>
+						<h3>
+							What does massage session entail?
+						</h3> 
+						<p>
+							Judy add content	
+						</p>
+					</li>
+					<br/>
+					<li>
+						<h3>
+							What does massage session entail?
+						</h3> 
+						<p>
+							Judy add content	
+						</p>
+					</li>
+				</ul>
+			</Box>
+		</Main>
 
-			<h3>Front-end</h3>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>jQuery</li>
-				<li>responsive design</li>	
-				<li>React</li>
-				<li>Bootstrap</li>
-			</ul>
-
-			<h3>Back-end</h3>
-			<ul>
-				<li>APIs</li>
-				<li>Node</li>
-				<li>Express</li>
-				<li>MySQL, Sequelize</li>
-				<li>MongoDB, Mongoose</li>	
-				<li>REST</li>
-				<li>GraphQL</li>
-			</ul>
-		</Box>
-	</main>
-
-);
+	);
 };
 
 export default Faq;
