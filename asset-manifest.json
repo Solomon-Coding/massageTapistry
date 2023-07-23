@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/massageTapestry/static/css/main.04cae717.css",
-    "main.js": "/massageTapestry/static/js/main.3d11b73d.js",
-    "static/js/787.7c6b1461.chunk.js": "/massageTapestry/static/js/787.7c6b1461.chunk.js",
-    "static/media/deep-forest-relaxation-2.jpg": "/massageTapestry/static/media/deep-forest-relaxation-2.d5bb6ec8907aa3e167fa.jpg",
-    "static/media/word_mark_lockup-07.png": "/massageTapestry/static/media/word_mark_lockup-07.38ceb2ad52f063f96738.png",
-    "index.html": "/massageTapestry/index.html",
-    "main.04cae717.css.map": "/massageTapestry/static/css/main.04cae717.css.map",
-    "main.3d11b73d.js.map": "/massageTapestry/static/js/main.3d11b73d.js.map",
-    "787.7c6b1461.chunk.js.map": "/massageTapestry/static/js/787.7c6b1461.chunk.js.map"
+    "main.css": "/static/css/main.04cae717.css",
+    "main.js": "/static/js/main.fdc84094.js",
+    "static/js/787.7c6b1461.chunk.js": "/static/js/787.7c6b1461.chunk.js",
+    "static/media/deep-forest-relaxation-2.jpg": "/static/media/deep-forest-relaxation-2.d5bb6ec8907aa3e167fa.jpg",
+    "static/media/word_mark_lockup-07.png": "/static/media/word_mark_lockup-07.38ceb2ad52f063f96738.png",
+    "index.html": "/index.html",
+    "main.04cae717.css.map": "/static/css/main.04cae717.css.map",
+    "main.fdc84094.js.map": "/static/js/main.fdc84094.js.map",
+    "787.7c6b1461.chunk.js.map": "/static/js/787.7c6b1461.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04cae717.css",
-    "static/js/main.3d11b73d.js"
+    "static/js/main.fdc84094.js"
   ]
 }
