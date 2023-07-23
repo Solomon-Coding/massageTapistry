@@ -16,6 +16,7 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+// width:87px; Not sure if I like this. It keeps the nav links from moving when one of them is selected but spacing is weird.
 &.active {
 	color: #FFCB9B;
 	font-weight:bold;

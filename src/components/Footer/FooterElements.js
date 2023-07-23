@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-position: fixed;
-z-index: 100;
-background: #2C3532;
-height: 85px;
 display: flex;
+position: relative;
+z-index: 100;
+width: 100vw;
+background-color: var(--FooterBackground);
+height: 85px;
 justify-content: space-evenly;
 padding: 0.2rem;
 bottom: 0px;
-width: 100vw;
+
 
 `;
 
