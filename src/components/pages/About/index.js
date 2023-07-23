@@ -1,6 +1,5 @@
 import React from "react";
-// import Picture from "../../../SDV_Picture.jpg";
-// import {Img} from "./AboutElements";
+import Judy from "../../../images/judyProfile.jpg";
 
 const About = () => {
 return (
@@ -8,7 +7,7 @@ return (
         
         <div>
             <h1>About Me</h1>
-            {/* <Img src={Picture} alt="Solomon Vana"></Img> */}
+            <img src={Judy} alt="Judy Vana"></img>
         </div>
         <br/>
         <p>I'm a front-end web developer based in Verona WI, with a background in numerical analysis and 
