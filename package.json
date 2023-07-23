@@ -1,11 +1,13 @@
 {
   "name": "massage_tapestry",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/massageTapestry",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
     "jsx": "^0.9.89",
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.9",
@@ -18,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
