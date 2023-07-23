@@ -1,53 +1,16 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+/* ~~~~~~~~ GENERAL ~~~~~~~~ */
 
 /* Color Pallet */
 :root {
-    --HeaderBackground: rgb(109, 138, 123);
+    --HeaderBackground: rgb(50, 90, 34);
     --NavbarText: rgb(216, 176, 140);
     --NavbarTextSelected: rgb(255, 203, 155);
-    --FooterBackground: rgb(44, 53, 50);
-    --PagesBackground: black;
-    
+    --FooterBackground: var(--HeaderBackground);
+    --PagesBackground: rgb(75, 87, 83);
+/* rgb(109, 138, 123) */
 /* rgb(44, 53, 50);  */
 
-    --color1:rgb(26,47,37);
+    --color1:rgb(26, 47, 37);
     --color2:rgb(86,125,117);
     --color3:rgb(0,91,69);
     --color4:rgb(229,218,204);
@@ -64,130 +27,20 @@
     --color14:rgb(185, 222, 175);
 }
 
-main{
-  /* background-color: var(--color5); */
-  display: flex;
-  /* align-items: center; */
-  flex-direction: column;
-  padding: 5% 10%;
-  /* color:var(--color2) */
-}
-main > *{
-  margin: 0px;
-}
-
-h3 {
-  margin-bottom: 0px;
-}
-
-
-.container1 {
-  position: relative;
-  width:350px;
-  height:200px;
-  margin: 20px;;
-}
-
-.image{
-  display: flex;
-width: 350px;
-height: 200px;
-margin: 20px;
-/* border-radius: 5%; */
-justify-content: center;
-align-items: center;
-}
-
-.overlay {
-  position: absolute;
-  /* display: flex; */
-  display: flex;
-  top: 20px;
-  bottom: 0;
-  left: 20px;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  /* opacity: 0; */
-  /* transition: .5s ease; */
-  /* background-color: #008CBA; */
-}
-
-.container1:hover .image {
-  filter: brightness(.35);
-}
-
-.container1:hover .overlay .text{
-  opacity: 1;
-}
-
-.container1:hover .text2{
-  opacity: 1;
-}
-
-.text {
-  display: flex;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 130px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-    opacity: 0;
-}
-
-.text2 {
-  display: flex;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  right: 50px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-    opacity: 0;
-}
-
-.gitImage{
-  width:30px;
-  height: 30px;
-  filter: invert(1);
-}
-
-svg {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.container {
-  display: inline-block;
-  position: absolute;
-  width: 100%;
-  padding-bottom: 100%;
-  vertical-align: middle;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-}
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-/* pattern idea for making it feel like a tapestry */
-/* body {
-  background-color: #999999;
-opacity: 1;
-background-image:  linear-gradient(#45f75a 1.9px, transparent 1.9px), linear-gradient(to right, #45f75a 1.9000000000000001px, #999999 1.9000000000000001px);
-background-size: 8px 8px;
-} */
-
-/* ~~~ HAMBURGER/SIDEBAR STYLING ~~~ */
-html,  
-body {
-  margin: 0;
+.weave {
+  padding: 0px;
+  opacity: 1;
+  z-index: 50;
+  background-image:  linear-gradient(#595555 .5px, transparent .5px), 
+     linear-gradient(to right, #6d6969 .5px, transparent .5px);
+  background-size: 4px 4px;
 }
+
+/* ~~~~~~~ HAMBURGER/SIDEBAR ~~~~~~~ */
 
 #App {
   font-family: sans-serif;
@@ -203,8 +56,6 @@ body {
 
 .bm-item {
   display: inline-block;
-
-  /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
   color: #d1d1d1;
@@ -217,14 +68,11 @@ body {
 
 .bm-burger-button {
   position: fixed;
-  /* position: relative; */
   width: 36px;
   height: 30px;
   right: 36px;
   top: 36px;
   display: none;
-    /* right: 0; */
-    /* float: right; */
 }
 
 @media screen and (max-width: 990px) {
@@ -257,11 +105,6 @@ body {
   font-size: 1.15em;
 }
 
-.bm-menu-wrap {
-  /* right: 0px;
-  transform: translate3d(100%, 0px, 0px); */
-}
-
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
@@ -275,8 +118,17 @@ body {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+  
 }
 
+
+/* ~~~~~~~~~~~ HOME/PAGE ~~~~~~~~~~~ */
+
+/* ~~~~~~~~~ ABOUT ME/PAGE ~~~~~~~~~ */
+
+/* ~~~~~~~~ CONTACT ME/PAGE ~~~~~~~~ */
+
+/* ~~~~~~~~~~~~ FAQ/PAGE ~~~~~~~~~~~ */
 .faqLists {
   list-style-type:none;
   padding: 0px;

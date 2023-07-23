@@ -5,7 +5,7 @@ display: flex;
 position: relative;
 z-index: 100;
 width: 100vw;
-background-color: var(--FooterBackground);
+background-color: var(--HeaderBackground);
 height: 125px;
 
 `;

@@ -8,7 +8,7 @@ const Home = () => {
 				{/* <h1>My Projects</h1> */}
 				{/* <br/> */}
 				<Div>
-					<Img src={Banner}></Img>
+					<Img className='weave;' src={Banner}></Img>
 				</Div>
 				
 				{/* <Box>

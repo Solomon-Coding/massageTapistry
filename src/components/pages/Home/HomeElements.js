@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-padding: 0px;
-opacity: 1;
-background-image:  linear-gradient(#595555 .5px, transparent .5px), 
-    linear-gradient(to right, #6d6969 .5px, transparent .5px);
-background-size: 4px 4px;
+background-color: var(--PagesBackground);
 `;
 
 export const Div = styled.div`
-display: contents;
+display: flex;
+justify-content: center;
+padding: 5%;
 `;
 
 export const Img = styled.img`
-filter: brightness(.95);
-z-index: -1;
+filter: brightness(.25);
+object-fit: scale-down;
+height: 700px;
+// z-index:1;
 `;
