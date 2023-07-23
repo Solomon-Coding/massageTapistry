@@ -42,7 +42,9 @@
     --HeaderBackground: rgb(109, 138, 123);
     --NavbarText: rgb(216, 176, 140);
     --NavbarTextSelected: rgb(255, 203, 155);
-    --FooterBackground: rgb(44, 53, 50); 
+    --FooterBackground: rgb(44, 53, 50);
+    --PagesBackground: black;
+    
 /* rgb(44, 53, 50);  */
 
     --color1:rgb(26,47,37);
