@@ -4,11 +4,15 @@ import Banner from "../../../images/deep-forest-relaxation-2.jpg";
 
 const Home = () => {
 		return (
-			<Main>
+			<Main >
 				{/* <h1>My Projects</h1> */}
 				{/* <br/> */}
 				<Div>
-					<Img className='weave;' src={Banner}></Img>
+				{/* <Div style={{backgroundImage:`url(${Banner})`}}> */}
+					<div>
+					<Img src={Banner}></Img>
+					</div>
+					
 				</Div>
 				
 				{/* <Box>

@@ -2,11 +2,13 @@
 
 /* Color Pallet */
 :root {
-    --HeaderBackground: rgb(50, 90, 34);
+    --HeaderBackground: rgb(145 98 51);
     --NavbarText: rgb(216, 176, 140);
     --NavbarTextSelected: rgb(255, 203, 155);
     --FooterBackground: var(--HeaderBackground);
-    --PagesBackground: rgb(75, 87, 83);
+    --PagesBackground: rgb(20 46 8);
+
+
 /* rgb(109, 138, 123) */
 /* rgb(44, 53, 50);  */
 
@@ -29,6 +31,7 @@
 
 body {
   overflow-x: hidden;
+  /* width: 100vw; */
 }
 
 .weave {

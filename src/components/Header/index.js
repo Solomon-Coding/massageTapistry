@@ -7,7 +7,7 @@ import logo from "../../images/word_mark_lockup-07.png";
 const HeaderComponent = () => {
 return (
 	<>
-	<Header>
+	<Header >
 		<Img src={logo} alt="Tapestry Logo"></Img>
 
 		<Nav>
