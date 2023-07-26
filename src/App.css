@@ -34,6 +34,10 @@ body {
   /* width: 100vw; */
 }
 
+main {
+  background-color: var(--PagesBackground);
+}
+
 .weave {
   padding: 0px;
   opacity: 1;
