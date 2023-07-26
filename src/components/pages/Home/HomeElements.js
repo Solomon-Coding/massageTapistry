@@ -19,3 +19,10 @@ height: 700px;
 z-index: 0;
 background-image: url(${image});
 `;
+
+export const Div2 = styled.div`
+filter: brightness(.75);
+// object-fit: scale-down;
+height: 700px;
+background-image: url(${image});
+`;
