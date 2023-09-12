@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebdaf9a0.css",
+    "main.js": "/static/js/main.289e22fa.js",
+    "static/js/787.7c6b1461.chunk.js": "/static/js/787.7c6b1461.chunk.js",
+    "static/media/version1_3.jpg": "/static/media/version1_3.c5344ddea33f2abd0af9.jpg",
+    "static/media/word_mark_lockup-07.png": "/static/media/word_mark_lockup-07.38ceb2ad52f063f96738.png",
+    "index.html": "/index.html",
+    "main.ebdaf9a0.css.map": "/static/css/main.ebdaf9a0.css.map",
+    "main.289e22fa.js.map": "/static/js/main.289e22fa.js.map",
+    "787.7c6b1461.chunk.js.map": "/static/js/787.7c6b1461.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebdaf9a0.css",
+    "static/js/main.289e22fa.js"
+  ]
+}
