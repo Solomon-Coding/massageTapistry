@@ -5,7 +5,7 @@ display: flex;
 position: relative;
 z-index: 100;
 width: 100vw;
-background-color: var(--FooterBackground);
+background-color: var(--HeaderBackground);
 height: 125px;
 
 `;
@@ -21,8 +21,8 @@ export const Nav = styled.nav`
 position: absolute;
 display: flex;
 justify-content: space-between;
-width: 400px;
-right: calc((100vw - 400px) / 2);
+width: 550px;
+right: calc((100vw - 550px) / 2);
 top: calc((125px - 22px)/2);
 `;
 

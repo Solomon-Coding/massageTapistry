@@ -39,9 +39,9 @@
 
 /* Color Pallet */
 :root {
-    --HeaderBackground: rgb(109, 138, 123);
-    --NavbarText: rgb(216, 176, 140);
-    --NavbarTextSelected: rgb(255, 203, 155);
+    --HeaderBackground: rgb(100, 162, 100);
+    --NavbarText: black;
+    --NavbarTextSelected: black;
     --FooterBackground: rgb(44, 53, 50);
     --PagesBackground: black;
     
@@ -190,7 +190,7 @@ body {
 }
 
 #App {
-  font-family: sans-serif;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif sans-serif;
   height: 100vh;
 }
 

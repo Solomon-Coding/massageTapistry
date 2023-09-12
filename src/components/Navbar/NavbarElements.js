@@ -9,16 +9,21 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #D8B08C;
+// color: #D8B08C;
+color: black;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+font-size: larger;
+padding: 0px 35px 0px 35px;
+}
 // width:87px; Not sure if I like this. It keeps the nav links from moving when one of them is selected but spacing is weird.
 &.active {
-	color: #FFCB9B;
+	// color: #FFCB9B;
+	color: Black;
 	font-weight:bold;
 }
 `;
