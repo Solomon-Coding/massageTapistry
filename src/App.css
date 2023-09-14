@@ -43,11 +43,12 @@
     --ThemeColor2: rgb(73 131 73);
     --ThemeColor3: rgb(255, 213, 175);
     --ThemeColor4: rgb(255, 192, 133);
+    --ThemeColor5: rgb(0, 0, 0);
     --HeaderBackground: var(--ThemeColor1);
-    --NavbarText: black;
-    --NavbarTextSelected: black;
+    --NavbarText: var(--ThemeColor5);
+    --NavbarTextSelected: var(--ThemeColor5);
     --FooterBackground: rgb(44, 53, 50);
-    --PagesBackground: black;
+    --PagesBackground: var(--ThemeColor5);
     
 /* rgb(44, 53, 50);  */
 
@@ -239,7 +240,7 @@ body {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #000000;
 }
 
 /* Position and sizing of clickable cross button */
@@ -256,7 +257,7 @@ body {
 
 /* General sidebar styles */
 .bm-menu {
-  background: #000;
+  background: var(--ThemeColor2);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
