@@ -24,7 +24,7 @@ return (
 			<Route path='/faq' element={<Faq/>} />
 		</Routes>
 		
-		<FooterComponent/>
+		{/* <FooterComponent/> */}
 
 	</Router>
 );

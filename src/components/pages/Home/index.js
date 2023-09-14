@@ -1,20 +1,20 @@
 import React from 'react';
-import {Div, Main, Img} from "./HomeElements";
-// import Banner from "../../../images/deep-forest-relaxation-2.jpg";
-import Banner from "../../../images/version1_3.jpg";
+import {Div, Main, Button, Div2, P} from "./HomeElements";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 		return (
 			<Main>
-				{/* <h1>My Projects</h1> */}
-				{/* <br/> */}
 				<Div>
-					<Img src={Banner}></Img>
+					
+					<Div2>
+					<P>Welcome to Tapestry Massage Therapy</P>
+						<Link to="/about">
+						<Button> About Me</Button>
+						</Link>
+						
+					</Div2>
 				</Div>
-				
-				{/* <Box>
-welcome
-				</Box> */}
 			</Main>
 		);
 		};

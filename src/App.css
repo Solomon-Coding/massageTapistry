@@ -39,7 +39,11 @@
 
 /* Color Pallet */
 :root {
-    --HeaderBackground: rgb(100, 162, 100);
+    --ThemeColor1: rgb(100, 162, 100);
+    --ThemeColor2: rgb(73 131 73);
+    --ThemeColor3: rgb(255, 213, 175);
+    --ThemeColor4: rgb(255, 192, 133);
+    --HeaderBackground: var(--ThemeColor1);
     --NavbarText: black;
     --NavbarTextSelected: black;
     --FooterBackground: rgb(44, 53, 50);
